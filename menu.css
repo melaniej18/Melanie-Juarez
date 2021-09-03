@@ -1,0 +1,46 @@
+{
+    padding: 0;
+    margin: 0;
+    text-decoration : none;
+}
+
+body{
+     background-color: darkkhaki;
+}
+
+a,li{
+    color: darkseagreen;
+}
+
+.logo-header img{
+    width: 55px;
+}
+
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 3rem;
+}
+.nav-menu u1{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1.6;
+}
+.nav-menu a:hover{
+    color: coral;
+}
+.nav-menu li:last-child{
+    background-color: cornsilk;
+    border: 2px solid darkslateblue;
+    padding: .25rem .74rem;
+    border-radius: .2rem;
+
+}
+.nav-menu li:last-child:hover{
+    background-color: darkgray;
+    border-color: 2px rgba(169, 169, 169, 0.863);
+}
